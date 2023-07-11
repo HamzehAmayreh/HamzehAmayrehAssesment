@@ -6,7 +6,7 @@ mapboxgl.accessToken =
 var map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/mapbox/streets-v11",
-  center: [-74.5, 40],
+  center: [35.908, 31.956004],
   zoom: 13,
 });
 map.addControl(new mapboxgl.NavigationControl());
@@ -36,7 +36,7 @@ searchButton.addEventListener("click", function () {
         return;
       }
       let response = await fetch(
-        `https://api.api-ninjas.com/v1/geocoding?city=${city}`,
+        `https://api.api-ninjas.com/v1/city?name=${city}`,
         config
       );
       locations = await response.json();
@@ -50,13 +50,13 @@ searchButton.addEventListener("click", function () {
         return;
       }
       console.log(locations);
-      x = locations[0].latitude;
-      y = locations[0].longitude;
+      let x = locations[0].latitude;
+      let y = locations[0].longitude;
 
       map.setCenter([y, x]);
-
-      console.log(locations[0].latitude);
-      console.log(locations[0].longitude);
+      map.setZoom(11);
+      console.log(x);
+      console.log(y);
     } catch (error) {
       console.log(error);
     }
