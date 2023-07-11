@@ -17,7 +17,7 @@ searchButton.addEventListener("click", function () {
   loader.classList.remove("loader-hidden");
   loader.classList.add("loader");
   var city = searchInput.value;
-  if (city.length == 0) {
+  if (city.length == 0 || city.trim.length == 0) {
     loader.classList.remove("loader");
     loader.classList.add("loader-hidden");
     alert("Please enter a city before searching");
@@ -41,11 +41,7 @@ searchButton.addEventListener("click", function () {
       );
       locations = await response.json();
 
-      if (
-        locations === undefined ||
-        locations.length == 0 ||
-        city.toLowerCase() !== locations[0].name.toLowerCase()
-      ) {
+      if (locations === undefined || locations.length == 0) {
         alert("Please enter a valid city");
         return;
       }

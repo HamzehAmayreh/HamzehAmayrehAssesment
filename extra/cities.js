@@ -1,0 +1,338 @@
+export const offices = [
+  {
+    city: "New York",
+    latitude: 40.7128,
+    longitude: -74.006,
+  },
+  {
+    city: "London",
+    latitude: 51.5074,
+    longitude: -0.1278,
+  },
+  {
+    city: "Sydney",
+    latitude: -33.8688,
+    longitude: 151.2093,
+  },
+  {
+    city: "Tokyo",
+    latitude: 35.6895,
+    longitude: 139.6917,
+  },
+  {
+    city: "Mumbai",
+    latitude: 19.076,
+    longitude: 72.8777,
+  },
+  {
+    city: "Toronto",
+    latitude: 43.65107,
+    longitude: -79.347015,
+  },
+  {
+    city: "São Paulo",
+    latitude: -23.5505,
+    longitude: -46.6333,
+  },
+  {
+    city: "Paris",
+    latitude: 48.8566,
+    longitude: 2.3522,
+  },
+  {
+    city: "Beijing",
+    latitude: 39.9042,
+    longitude: 116.4074,
+  },
+  {
+    city: "Moscow",
+    latitude: 55.7512,
+    longitude: 37.6184,
+  },
+  {
+    city: "Johannesburg",
+    latitude: -26.2041,
+    longitude: 28.0473,
+  },
+  {
+    city: "Santiago",
+    latitude: -33.4489,
+    longitude: -70.6693,
+  },
+  {
+    city: "Hong Kong",
+    latitude: 22.3193,
+    longitude: 114.1694,
+  },
+  {
+    city: "Amsterdam",
+    latitude: 52.3702,
+    longitude: 4.8952,
+  },
+  {
+    city: "Berlin",
+    latitude: 52.52,
+    longitude: 13.405,
+  },
+  {
+    city: "Bangkok",
+    latitude: 13.7563,
+    longitude: 100.5018,
+  },
+  {
+    city: "Seoul",
+    latitude: 37.5665,
+    longitude: 126.978,
+  },
+  {
+    city: "Vienna",
+    latitude: 48.2082,
+    longitude: 16.3738,
+  },
+  {
+    city: "Rome",
+    latitude: 41.9028,
+    longitude: 12.4964,
+  },
+  {
+    city: "Mexico City",
+    latitude: 19.4326,
+    longitude: -99.1332,
+  },
+  {
+    city: "Stockholm",
+    latitude: 59.3293,
+    longitude: 18.0686,
+  },
+  {
+    city: "Lima",
+    latitude: -12.0464,
+    longitude: -77.0428,
+  },
+  {
+    city: "Buenos Aires",
+    latitude: -34.6037,
+    longitude: -58.3816,
+  },
+  {
+    city: "Zurich",
+    latitude: 47.3769,
+    longitude: 8.5417,
+  },
+  {
+    city: "Madrid",
+    latitude: 40.4168,
+    longitude: -3.7038,
+  },
+  {
+    city: "Kuala Lumpur",
+    latitude: 3.139,
+    longitude: 101.6869,
+  },
+  {
+    city: "Jakarta",
+    latitude: -6.2088,
+    longitude: 106.8456,
+  },
+  {
+    city: "Lisbon",
+    latitude: 38.7223,
+    longitude: -9.1393,
+  },
+  {
+    city: "Copenhagen",
+    latitude: 55.6761,
+    longitude: 12.5683,
+  },
+  {
+    city: "Oslo",
+    latitude: 59.9139,
+    longitude: 10.7522,
+  },
+  {
+    city: "Helsinki",
+    latitude: 60.1699,
+    longitude: 24.9384,
+  },
+  {
+    city: "Budapest",
+    latitude: 47.4979,
+    longitude: 19.0402,
+  },
+  {
+    city: "Warsaw",
+    latitude: 52.2297,
+    longitude: 21.0122,
+  },
+  {
+    city: "Athens",
+    latitude: 37.9838,
+    longitude: 23.7275,
+  },
+  {
+    city: "Prague",
+    latitude: 50.0755,
+    longitude: 14.4378,
+  },
+  {
+    city: "Ljubljana",
+    latitude: 46.0569,
+    longitude: 14.5058,
+  },
+  {
+    city: "Dublin",
+    latitude: 53.3498,
+    longitude: -6.2603,
+  },
+  {
+    city: "Brussels",
+    latitude: 50.8503,
+    longitude: 4.3517,
+  },
+  {
+    city: "Manila",
+    latitude: 14.5995,
+    longitude: 120.9842,
+  },
+  {
+    city: "Bogotá",
+    latitude: 4.711,
+    longitude: -74.0721,
+  },
+  {
+    city: "San Francisco",
+    latitude: 37.7749,
+    longitude: -122.4194,
+  },
+  {
+    city: "Lisbon",
+    latitude: 38.7223,
+    longitude: -9.1393,
+  },
+  {
+    city: "Casablanca",
+    latitude: 33.5731,
+    longitude: -7.5898,
+  },
+  {
+    city: "Edinburgh",
+    latitude: 55.9533,
+    longitude: -3.1883,
+  },
+  {
+    city: "Wellington",
+    latitude: -41.2865,
+    longitude: 174.7762,
+  },
+  {
+    city: "Bratislava",
+    latitude: 48.1486,
+    longitude: 17.1077,
+  },
+  {
+    city: "Riga",
+    latitude: 56.9496,
+    longitude: 24.1052,
+  },
+  {
+    city: "Bucharest",
+    latitude: 44.4396,
+    longitude: 26.0963,
+  },
+  {
+    city: "Lagos",
+    latitude: 6.5244,
+    longitude: 3.3792,
+  },
+  {
+    city: "Munich",
+    latitude: 48.1351,
+    longitude: 11.582,
+  },
+  {
+    city: "Geneva",
+    latitude: 46.2044,
+    longitude: 6.1432,
+  },
+  {
+    city: "Montreal",
+    latitude: 45.5017,
+    longitude: -73.5673,
+  },
+  {
+    city: "Seville",
+    latitude: 37.3891,
+    longitude: -5.9845,
+  },
+  {
+    city: "Bengaluru",
+    latitude: 12.9716,
+    longitude: 77.5946,
+  },
+  {
+    city: "Vienna",
+    latitude: 48.2082,
+    longitude: 16.3738,
+  },
+  {
+    city: "Panama City",
+    latitude: 8.9833,
+    longitude: -79.5167,
+  },
+  {
+    city: "Auckland",
+    latitude: -36.8485,
+    longitude: 174.7633,
+  },
+  {
+    city: "Lyon",
+    latitude: 45.75,
+    longitude: 4.85,
+  },
+  {
+    city: "Hamburg",
+    latitude: 53.5511,
+    longitude: 9.9937,
+  },
+  {
+    city: "Marrakesh",
+    latitude: 31.6295,
+    longitude: -7.9811,
+  },
+  {
+    city: "Nairobi",
+    latitude: -1.2864,
+    longitude: 36.8172,
+  },
+  {
+    city: "Lima",
+    latitude: -12.0464,
+    longitude: -77.0428,
+  },
+  {
+    city: "Hanoi",
+    latitude: 21.0285,
+    longitude: 105.8542,
+  },
+  {
+    city: "Colombo",
+    latitude: 6.9271,
+    longitude: 79.8612,
+  },
+  { city: "Abu Dhabi", latitude: 24.4539, longitude: 54.3773 },
+  { city: "Amman", latitude: 31.9566, longitude: 35.9457 },
+  { city: "Bahrain", latitude: 26.2154, longitude: 50.5832 },
+  { city: "Beirut", latitude: 33.8958, longitude: 35.4786 },
+  { city: "Cairo", latitude: 30.0444, longitude: 31.2357 },
+  { city: "Dammam", latitude: 26.4207, longitude: 50.0888 },
+  { city: "Doha", latitude: 25.2854, longitude: 51.531 },
+  { city: "Dubai", latitude: 25.2048, longitude: 55.2708 },
+  { city: "Jeddah", latitude: 21.4858, longitude: 39.1925 },
+  { city: "Kuwait City", latitude: 29.3759, longitude: 47.9774 },
+  { city: "Manama", latitude: 26.227, longitude: 50.586 },
+  { city: "Muscat", latitude: 23.6105, longitude: 58.54 },
+  { city: "Riyadh", latitude: 24.7136, longitude: 46.6753 },
+  { city: "Sharjah", latitude: 25.3463, longitude: 55.4209 },
+  { city: "Tehran", latitude: 35.6892, longitude: 51.389 },
+  { city: "Tel Aviv", latitude: 32.0853, longitude: 34.7818 },
+];
