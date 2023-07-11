@@ -43,6 +43,7 @@ searchButton.addEventListener("click", function () {
 
       if (
         locations === undefined ||
+        locations.length == 0 ||
         city.toLowerCase() !== locations[0].name.toLowerCase()
       ) {
         alert("Please enter a valid city");

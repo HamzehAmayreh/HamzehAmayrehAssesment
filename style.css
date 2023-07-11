@@ -50,8 +50,9 @@ body {
         content: "";
         width: 50px;
         height: 50px;
-        border: 15px solid #dddddd;
-        border-top-color: rgb(0, 8, 93);
+        border: 15px solid #212529;
+        border-top-color: rgb(255, 255, 255);
+        /* border-top-color: rgb(0, 8, 93); */
         border-radius: 50%;
         animation: loading 8.75s ease infinite;}
 
