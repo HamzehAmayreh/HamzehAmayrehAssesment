@@ -1,0 +1,65 @@
+body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+}
+
+#map {
+        height: 100vh;
+        width: 100vw;
+        
+}
+
+#search-container {
+        position: absolute;
+        top: 20px;
+        padding-left: 25%;
+        padding-right: 25%;
+        z-index: 1;
+        background-color: transparent;
+}
+
+.search-container input[type="text"] {
+        width: 200px;
+        padding: 4px;
+        font-size: 14px;
+        background-color: transparent;
+}
+
+.search-container button {
+        padding: 4px 8px;
+        font-size: 14px;
+}
+.loader {
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: opacity 0.75s,visibility 0.75s;
+}
+.loader-hidden{
+        opacity: 0;
+        visibility: hidden;
+}
+.loader::after{
+        content: "";
+        width: 50px;
+        height: 50px;
+        border: 15px solid #dddddd;
+        border-top-color: rgb(0, 8, 93);
+        border-radius: 50%;
+        animation: loading 8.75s ease infinite;}
+
+@keyframes loading {
+        from{
+                transform: rotate(0turn);
+        }
+        to{
+                transform: rotate(1turn);
+        }
+}
